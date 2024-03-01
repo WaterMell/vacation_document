@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Config File</title>
 </head>
 <body>
-
+	<jsp:include page="../view/${viewName }.jsp"/>
+	<jsp:include page="../view/${viewName }Js.jsp"/>
 </body>
 </html>
